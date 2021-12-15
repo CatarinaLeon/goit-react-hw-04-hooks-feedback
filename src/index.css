@@ -1,0 +1,28 @@
+@import-normalize;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap");
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: black;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 70px;
+}
+
+button {
+  margin-right: 30px;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: bisque;
+  border-radius: 3px;
+  border: 1px solid tomato;
+}
